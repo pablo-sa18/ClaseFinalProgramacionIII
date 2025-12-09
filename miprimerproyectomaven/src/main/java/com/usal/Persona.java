@@ -28,7 +28,7 @@ public class Persona {
         if(trozos.length != 2) {
             throw new IllegalArgumentException("Parametos invalidos");
         } else {
-            return new Persona(personaString, personaString);
+            return new Persona(trozos[0], trozos[1]);
         }
     }
     
